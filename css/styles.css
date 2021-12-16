@@ -781,9 +781,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 70px;
 }
 /*футер меил*/
-
-.footermail{
-
+.footermail {
+    margin-left: 93px;
+    padding-top: 8px;
 }
 .footermail-text {
     color: var(--background-color);
@@ -794,10 +794,29 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+.footermail-field {
+    display: flex;
+}
 
+.footermail-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 16px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+}
 .footermail-btn {
     height: 50px;
     width: 200px;
+    padding: 10px 28px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -809,12 +828,26 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--background-color);
+    margin-left: 12px;
+}
+.footermail-btnlist {
+    position: relative;
 }
 .regular-clients-icon {
+    position: absolute;
     
+    top: 50%;
+    left: 160px;
+    height: 24px;
+    width: 24px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
-
+.regular-clients-icon {
+    fill: var(--text-color-zag);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /*    всплывающие окно backdrop  */
 
